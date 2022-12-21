@@ -1,3 +1,5 @@
+// Verificar idade.
+
 #INCLUDE "totvs.ch"
 
 user function idade()
@@ -15,6 +17,7 @@ user function idade()
 
 RETURN
 
+// Selecionar a bebida.
 
 user function menu()
     local cOpc := conIn()
@@ -29,6 +32,9 @@ user function menu()
     ENDCASE
 
 RETURN
+
+
+// Verificar se um número é par ou ímpar.
 
 user function Numero()
     Local cNumero := conIn()
@@ -52,8 +58,8 @@ user function reduzi()
 
 return
 
-//Ler 2 notas de um aluno e apresentar a média
 
+//Ler 2 notas de um aluno e apresentar a média
 
 
 user function Nota()
